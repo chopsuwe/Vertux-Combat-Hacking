@@ -7,7 +7,7 @@ The Vertux Combat QuickStrike is a one handed gaming keypad with a thumb joystic
 
 It is a very well built product with one major problem - the joystick is mapped to the WSAD keys, the same keys that are replicated on the keyboard section. There is no way to change any of the key assignments, which makes the product largely pointless. 
 
-There is very little information about this product on the internet, and, as I was given one to try, out I figured I would try to hack it. Spoiler alert: there is no happy ending, reprogramming it will require someone with better hacking skills than me.
+There is very little information about this product on the internet so, as I was given one, I figured I would try to hack it. Spoiler alert: there is no happy ending, reprogramming it will require someone with better hacking skills than me.
 
 ## Who made it?
 
@@ -23,13 +23,13 @@ The update package includes an executable updater (Windows only) and a binary fi
 
 It's a real shame as this is such a well made product that would make a great alternative to the Tartarus. If anyone is interested on taking on the challenge I'd love to hear from you.
 
-## Disassembly
+## Features
 
 <img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/51211985-d152-4574-87b0-81eab82b5246" alt="VertuxC top" width=75%/>
 
 The main section is the left side of a standard keyboard. There is no branding on the keys, they are mechanical, very clicky tactile. And as a bonus they are optical keys so will never suffer from switch bounce. On the left are macro keys G1-4 and the ???? key on the right, all of which are membrane. The joystick is analogue but is mapped to produce WSAD when pressed. It also has a push which does ????
 
-The back right of the has connectors for the USB-C output (to the PC/console) 3x USB2.0 and one stereo headphones jack (3.5mm).
+On the back right are connectors for the USB-C output (to the PC/console), three USB2.0 inputs and one stereo headphones jack (3.5mm).
 
 The wrist rest is nicely padded and adjustable.
 
@@ -38,20 +38,21 @@ The wrist rest is nicely padded and adjustable.
 ## Disassembly & Reverse Engineering
 
 <img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/8285fb76-a785-4f32-9d16-c035415fe47d" alt="VertuxC buttons removed" width=75%/>
+
 Remove the keycaps and undo all the screws. The top panel lifts off.
 
 <img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/4e5bcf0d-9f17-4398-a22b-1aaa36d34bca" alt="VertuxC button plate" width=75%/>
+
 The top panel is made to a very high standard. It is a hefty sheet of metal, precisely machined, powder coated and silk screened.
 
 <img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/75ddd1e6-e05e-4463-867f-40f717281e12" alt="PCB assembled" width=75%/>
+
 Remove all the screws and lift out the main circuit board. Remove the smaller boards by flicking up the black tabs on the connectors, pulling out the ribbon cable and undoing the screws.
 
 Construction is very robust with plenty of mechanical support for the electronics.
 
-
-![VertuxC usb board](https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/3607f238-363b-48a0-97f6-47116b089d19)
-
 <img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/3607f238-363b-48a0-97f6-47116b089d19" alt="VertuxC usb board" width=75%/>
+
 Connector board. Top left is the USB-C for connecting to the host PC or console. Bottom right is the headphone jack. The others are USB2.0 for connecting a mouse, etc.
 
 The DN35 chip is likely to be the DAC and headphones driver IC.
@@ -59,13 +60,13 @@ The DN35 chip is likely to be the DAC and headphones driver IC.
 ![VertuxC main pcb top](https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/007b0e4f-fbfb-4e2c-a7a1-677d07751473)
 
 <img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/007b0e4f-fbfb-4e2c-a7a1-677d07751473" alt="VertuxC main pcb top" width=75%/>
+
 Top of the main board.
 
 Each key has a RGB led at the top and an infrared TX/RX pair to detect the key press. Top left is the Caps Lock LED. Top right are the backlight LEDs for the Vertux logo (LED1-3). Next to those are status lights for the USB2.0 ports, mouse (LED4), gamepad (LED5) and headset (LED6).
 
-![VertuxC pcb bottom](https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/b06d5b16-9fa7-4563-9aea-cae53bf9acdc)
-
 <img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/b06d5b16-9fa7-4563-9aea-cae53bf9acdc" alt="VertuxC pcb bottom" width=75%/>
+
 Bottom of the main board.
 
 U1 (far right). VS12L03A I2C/SPI LED matrix driver. Can drive up to 256 LEDs. It also has an analogue input so could potentially produce a music controlled light show. 
