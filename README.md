@@ -1,6 +1,9 @@
 # Vertux-Combat-Hacking
 Hacking the Vertux Combat Quickstrike gaming keypad. 
 
+<img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/f7e1c6c0-aea9-4aef-91bb-4f75a5107d20" alt="VertuxC promo pic" width="250"/>
+
+
 cfghg
 <a href="url"><img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/f7e1c6c0-aea9-4aef-91bb-4f75a5107d20" align="left" height="480" width="480" ></a>
 
