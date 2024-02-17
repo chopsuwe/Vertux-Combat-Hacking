@@ -37,31 +37,50 @@ The wrist rest is nicely padded and adjustable.
 
 ## Disassembly & Reverse Engineering
 
-  
-  
 <img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/8285fb76-a785-4f32-9d16-c035415fe47d" alt="VertuxC buttons removed" width=75%/>
+Remove the keycaps and undo all the screws. The top panel lifts off.
+
+<img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/4e5bcf0d-9f17-4398-a22b-1aaa36d34bca" alt="VertuxC button plate" width=75%/>
+The top panel is made to a very high standard. It is a hefty sheet of metal, precisely machined, powder coated and silk screened.
+
+<img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/75ddd1e6-e05e-4463-867f-40f717281e12" alt="PCB assembled" width=75%/>
+Remove all the screws and lift out the main circuit board. Remove the smaller boards by flicking up the black tabs on the connectors, pulling out the ribbon cable and undoing the screws.
+
+Construction is very robust with plenty of mechanical support for the electronics.
 
 
+![VertuxC usb board](https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/3607f238-363b-48a0-97f6-47116b089d19)
 
-<img src="https://github.com/" alt="VertuxC top" width=75%/>
+<img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/3607f238-363b-48a0-97f6-47116b089d19" alt="VertuxC usb board" width=75%/>
+Connector board. Top left is the USB-C for connecting to the host PC or console. Bottom right is the headphone jack. The others are USB2.0 for connecting a mouse, etc.
 
+The DN35 chip is likely to be the DAC and headphones driver IC.
 
+![VertuxC main pcb top](https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/007b0e4f-fbfb-4e2c-a7a1-677d07751473)
 
-<img src="https://github.com/" alt="VertuxC top" width=75%/>
+<img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/007b0e4f-fbfb-4e2c-a7a1-677d07751473" alt="VertuxC main pcb top" width=75%/>
+Top of the main board.
 
+Each key has a RGB led at the top and an infrared TX/RX pair to detect the key press. Top left is the Caps Lock LED. Top right are the backlight LEDs for the Vertux logo (LED1-3). Next to those are status lights for the USB2.0 ports, mouse (LED4), gamepad (LED5) and headset (LED6).
 
-<img src="https://github.com/" alt="VertuxC top" width=75%/>
+![VertuxC pcb bottom](https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/b06d5b16-9fa7-4563-9aea-cae53bf9acdc)
 
+<img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/b06d5b16-9fa7-4563-9aea-cae53bf9acdc" alt="VertuxC pcb bottom" width=75%/>
+Bottom of the main board.
 
-<img src="https://github.com/" alt="VertuxC top" width=75%/>
+U1 (far right). VS12L03A I2C/SPI LED matrix driver. Can drive up to 256 LEDs. It also has an analogue input so could potentially produce a music controlled light show. 
 
+U2 (below) has no markings. Possibly some sort of USB buffer, it connects to the u4's DMU/DPU pins (D- & D+ of the upstream facing port). 
 
-<img src="https://github.com/" alt="VertuxC top" width=75%/>
+U3 (on connector board) DN335. Probably a headphone driver DAC. 
 
+U4 (top left), the FE1.1S USB 2.0 High Speed 4-Port Hub Controller made by Terminus. This controls the status LEDs (LED4-6).
 
+U5 (below U6) 4A2D linear voltage regulator (2.0-6.0V)
 
+U6 (below right). FM25Q04 is a 4M-bit (512k byte) serial flash memory chip.
 
+U7 marked DN2503 ET64 949 J129BG. Unknown. 
 
-
-
+U8 (right of U1) 4A2D linear voltage regulator (2.0-6.0V)
 
