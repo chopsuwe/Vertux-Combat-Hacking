@@ -11,7 +11,7 @@ There is very little information about this product on the internet, and, as I w
 
 ## Who made it?
 
-The Vertux Combat is also sold under the brands of NEXiLUX and IINE. According to this reddit comment, IINE sells third party game controllers into Southeast Asia, with a few products appearing on Amazon, eBay and Walmart under the NEXiLUX brand. However it appears this one actually made by NEXiLUX.
+The Vertux Combat is also sold under the brands of NEXiLUX and IINE. According to this reddit comment  https://www.reddit.com/r/NintendoSwitch/comments/o4k474/i_tried_one_of_those_20_aliexpress_pro/h2iuhsj/     , IINE sells third party game controllers into Southeast Asia, with a few products appearing on Amazon, eBay and Walmart under the NEXiLUX brand. However it appears this one actually made by NEXiLUX.
 
 ## Software and updates
 
@@ -21,7 +21,7 @@ The NEXiLUX website does have the gamepad listed under the name PRO GAMING KEYBO
 
 The update package includes an executable updater (Windows only) and a binary file. In theory it would be possible for someone with sufficient skills to write and compile new firmware. Unfortunately I haven't been able to find any information on the microprocessor used and probably don't have the skills anyway. 
 
-It's a real as this is such a well made product that would be a great alternative to the Tartarus. If anyone is interested on taking on the challenge I'd love to hear from you.
+It's a real shame as this is such a well made product that would make a great alternative to the Tartarus. If anyone is interested on taking on the challenge I'd love to hear from you.
 
 
 
