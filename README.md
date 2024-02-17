@@ -11,7 +11,7 @@ There is very little information about this product on the internet so, as I was
 
 ## Who made it?
 
-The Vertux Combat is also sold under the brands of NEXiLUX and IINE. According to [this reddit comment](https://www.reddit.com/r/NintendoSwitch/comments/o4k474/i_tried_one_of_those_20_aliexpress_pro/h2iuhsj/), IINE sells third party game controllers into Southeast Asia, with a few products appearing on Amazon, eBay and Walmart under the NEXiLUX brand. However it appears this one actually made by NEXiLUX.
+The Vertux Combat is also sold under the brands of NEXiLUX and IINE. One Amazon listing claims it is made by ‎Promate Technologies Ltd. According to [this reddit comment](https://www.reddit.com/r/NintendoSwitch/comments/o4k474/i_tried_one_of_those_20_aliexpress_pro/h2iuhsj/), IINE sells third party game controllers into Southeast Asia, with a few products appearing on Amazon, eBay and Walmart under the NEXiLUX brand. However it appears this one actually made by NEXiLUX.
 
 ## Software and updates
 
