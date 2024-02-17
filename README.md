@@ -57,8 +57,6 @@ Connector board. Top left is the USB-C for connecting to the host PC or console.
 
 The DN35 chip is likely to be the DAC and headphones driver IC.
 
-![VertuxC main pcb top](https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/007b0e4f-fbfb-4e2c-a7a1-677d07751473)
-
 <img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/007b0e4f-fbfb-4e2c-a7a1-677d07751473" alt="VertuxC main pcb top" width=75%/>
 
 Top of the main board.
@@ -71,17 +69,17 @@ Bottom of the main board.
 
 U1 (far right). VS12L03A I2C/SPI LED matrix driver. Can drive up to 256 LEDs. It also has an analogue input so could potentially produce a music controlled light show. 
 
-U2 (below) has no markings. Possibly some sort of USB buffer, it connects to the u4's DMU/DPU pins (D- & D+ of the upstream facing port). 
+U2 (bottom left). Has no markings. Possibly some sort of USB buffer, it connects to the u4's DMU/DPU pins (D- & D+ of the upstream facing port). 
 
-U3 (on connector board) DN335. Probably a headphone driver DAC. 
+U3 (on connector board). DN335. Probably a headphone driver DAC. 
 
-U4 (top left), the FE1.1S USB 2.0 High Speed 4-Port Hub Controller made by Terminus. This controls the status LEDs (LED4-6).
+U4 (top left). the FE1.1S USB 2.0 High Speed 4-Port Hub Controller made by Terminus. This controls the status LEDs (LED4-6).
 
-U5 (below U6) 4A2D linear voltage regulator (2.0-6.0V)
+U5 (bottom left). 4A2D linear voltage regulator (2.0-6.0V)
 
-U6 (below right). FM25Q04 is a 4M-bit (512k byte) serial flash memory chip.
+U6 (bottom left). FM25Q04 is a 4M-bit (512k byte) serial flash memory chip.
 
-U7 marked DN2503 ET64 949 J129BG. Unknown. 
+U7 (bottom middle). Unknown. Marked with DN2503 ET64 949 J129BG.
 
-U8 (right of U1) 4A2D linear voltage regulator (2.0-6.0V)
+U8 (far right). 4A2D linear voltage regulator (2.0-6.0V)
 
