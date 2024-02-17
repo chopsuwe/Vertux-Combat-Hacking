@@ -1,13 +1,7 @@
 # Vertux-Combat-Hacking
 Hacking the Vertux Combat Quickstrike gaming keypad. 
 
-<img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/f7e1c6c0-aea9-4aef-91bb-4f75a5107d20" alt="VertuxC promo pic" width="250"/>
-
-
-cfghg
-<a href="url"><img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/f7e1c6c0-aea9-4aef-91bb-4f75a5107d20" align="left" height="480" width="480" ></a>
-
-![VertuxC promo pic](https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/f7e1c6c0-aea9-4aef-91bb-4f75a5107d20 | width=100)
+<img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/f7e1c6c0-aea9-4aef-91bb-4f75a5107d20" alt="VertuxC promo pic" width="480"/>
 
 The Vertux Combat QuickStrike is a one handed gaming keypad with a thumb joystick similar to the classic Razer Tartarus. The body has the the same layout as a standard keyboard with the addition of a joystick under the thumb.
 
