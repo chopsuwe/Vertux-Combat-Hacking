@@ -25,8 +25,6 @@ It's a real shame as this is such a well made product that would make a great al
 
 ## Disassembly
 
-![VertuxC top](https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/51211985-d152-4574-87b0-81eab82b5246)
-
 <img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/51211985-d152-4574-87b0-81eab82b5246" alt="VertuxC top" width=75%/>
 
 The main section is the left side of a standard keyboard. There is no branding on the keys, they are mechanical, very clicky tactile. And as a bonus they are optical keys so will never suffer from switch bounce. On the left are macro keys G1-4 and the ???? key on the right, all of which are membrane. The joystick is analogue but is mapped to produce WSAD when pressed. It also has a push which does ????
@@ -35,23 +33,28 @@ The back right of the has connectors for the USB-C output (to the PC/console) 3x
 
 The wrist rest is nicely padded and adjustable.
 
-![VertuxC bottom](https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/6834ea05-5142-41c4-acea-3afb7c05a3e7)
-
 <img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/6834ea05-5142-41c4-acea-3afb7c05a3e7" alt="VertuxC bottom" width=75%/>
 
 ## Disassembly & Reverse Engineering
 
-<img src="https://github.com/" alt="VertuxC top" width=75%/>
+  
+  
+<img src="https://github.com/chopsuwe/Vertux-Combat-Hacking/assets/55773924/8285fb76-a785-4f32-9d16-c035415fe47d" alt="VertuxC buttons removed" width=75%/>
+
+
 
 <img src="https://github.com/" alt="VertuxC top" width=75%/>
 
-<img src="https://github.com/" alt="VertuxC top" width=75%/>
+
 
 <img src="https://github.com/" alt="VertuxC top" width=75%/>
 
-<img src="https://github.com/" alt="VertuxC top" width=75%/>
 
 <img src="https://github.com/" alt="VertuxC top" width=75%/>
+
+
+<img src="https://github.com/" alt="VertuxC top" width=75%/>
+
 
 <img src="https://github.com/" alt="VertuxC top" width=75%/>
 
